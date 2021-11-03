@@ -7,12 +7,16 @@ body {
 img {
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 .marca {
   color: var(--red);
 }
 .container {
-  max-width: 100%;
+  max-width: 83%;
+  height: 600px;
+  margin: 10px auto;
+  overflow: hidden;
 }
 #valor {
   color: var(--red);
