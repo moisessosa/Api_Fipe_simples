@@ -1,0 +1,25 @@
+:root {
+  --red: rgb(248, 34, 15);
+}
+body {
+  text-align: center;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.marca {
+  color: var(--red);
+}
+.container {
+  max-width: 100%;
+}
+#valor {
+  color: var(--red);
+}
+@media screen and (min-width: 835px) {
+  .description {
+    display: flex;
+    justify-content: space-around;
+  }
+}
