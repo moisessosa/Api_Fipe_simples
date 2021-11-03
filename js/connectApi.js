@@ -4,7 +4,7 @@ let ano = 2011;
 const getDataApi = (url) =>{
     fetch(url)
     .then(function (response) {
-        //document.querySelector('#err').textContent ="";
+        document.querySelector('#err').textContent ="";
         return response.json();
     })
     .then(function (data) {
@@ -25,5 +25,5 @@ setInterval(()=>{
     getDataApi(url);
     ano++;
     ano= ano > 2018 ? 2011 : ano;
-},6000)
+},4000)
 //connectApi('https://parallelum.com.br/fipe/api/v1/carros/marcas/6/modelos/5549/anos/2012-1')

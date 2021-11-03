@@ -18,6 +18,9 @@ img {
   margin: 10px auto;
   overflow: hidden;
 }
+#err {
+  color: red;
+}
 #valor {
   color: var(--red);
 }
